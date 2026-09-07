@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+
+@layer components{
+    .btn-main , .active-linK{
+        @apply  text-black border border-main bg-gray-100 hover:bg-main  hover:text-white disabled:cursor-not-allowed disabled:bg-light disabled:text-dark cursor-pointer duration-500 transition-colors rounded-2xl px-7 py-3 ;
+    }
+}
+
+
+ @layer components{
+    
+    .main-hover{
+        @apply hover:bg-main  duration-200 ;
+    }
+}
+@layer reset, primeng;
+

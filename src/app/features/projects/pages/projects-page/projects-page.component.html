@@ -1,0 +1,372 @@
+<div>
+  <div>
+    <div class="text-center">
+      <h1 class="text-main text-5xl font-bold">My Projects</h1>
+      <p class="text-gray-500 text-[20px] my-4">
+        Showcasing innovative solutions and real-world applications built with cutting-edge
+        technologies.
+      </p>
+    </div>
+
+    <!-- All Projects -->
+
+    <div class="app-projects">
+      <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-10 container mx-auto mt-10">
+        <!-- project-1 -->
+        <div class="inner p-4 border hover:border-0">
+          <!-- image-project -->
+          <div class="img overflow-hidden">
+            <img
+              src="/images/img1.png"
+              class="w-full hover:scale-[1.2] relative duration-300 object-cover object-center"
+              alt="Fresh Cart"
+            />
+          </div>
+
+          <!-- Content-project -->
+          <div class="content mt-10">
+            <div class="flex justify-between">
+              <h3 class="text-2xl text-main font-medium">Fresh Cart</h3>
+              <div>
+                <p-button (onClick)="showDialog('project1')" label="Show" />
+                <p-dialog
+                  header="Project Details"
+                  [modal]="true"
+                  [(visible)]="visible['project1']"
+                  [style]="{ width: '50rem' }"
+                  [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }"
+                  [maximizable]="false"
+                >
+                  <img class="h-52 w-full" src="/images/project-details-1.png" alt="" />
+                  <h1 class="text-3xl font-medium">Fresh Cart</h1>
+                  <p class="my-2 text-main">
+                    E-Commerce web application. The application provides a complete shopping
+                    experience.
+                  </p>
+                  <h3 class="text-3xl font-medium">Project Details</h3>
+                  <p class="my-2 text-main">
+                    A modern and responsive E-Commerce web application built with Angular 20. The
+                    application provides a complete shopping experience including authentication,
+                    product browsing, shopping cart, checkout, and order management.
+                  </p>
+                  <h3 class="text-3xl mb-2 font-medium">Technologies Used</h3>
+                  <div class="flex justify-between">
+                    <p class="p-3 border-white border rounded-2xl text-main">Angular</p>
+                    <p class="p-3 border border-white rounded-2xl text-main">Tailwind CSS</p>
+                    <p class="p-3 border border-white rounded-2xl text-main">HTML</p>
+                    <p class="p-3 border border-white rounded-2xl text-main">CSS</p>
+                    <p class="p-3 border border-white rounded-2xl text-main">REST API</p>
+                    <p class="p-3 border border-white rounded-2xl text-main">TS</p>
+                  </div>
+                  <a href="https://e-commerce-rho-ten-79.vercel.app">
+                    <button
+                      class="w-full mt-4 p-2 cursor-pointer text-2xl border  text-main hover:text-white hover:bg-main rounded-2xl duration-300"
+                    >
+                      View Project
+                    </button>
+                  </a>
+                </p-dialog>
+              </div>
+            </div>
+
+            <p class="mt-5">
+              E-Commerce web application. The application provides a complete shopping
+               experience.
+            </p>
+          </div>
+        </div>
+        <!-- project-2 -->
+        <div class="inner p-4 border hover:border-0">
+          <!--? image-project -->
+          <div class="img overflow-hidden">
+            <img
+              src="/images/img2.png"
+              class="w-full hover:scale-[1.2] relative duration-300 object-cover object-center"
+              alt="Start Framework"
+            />
+          </div>
+          <!-- ?Content-project -->
+          <div class="content  mt-10">
+            <div class="flex justify-between">
+              <h3 class="text-2xl text-main font-medium">Start Framework</h3>
+              <div>
+                <p-button (onClick)="showDialog('project2')" label="Show" />
+                <p-dialog
+                  header="Project Details"
+                  [modal]="true"
+                  [(visible)]="visible['project2']"
+                  [style]="{ width: '50rem' }"
+                  [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }"
+                  [maximizable]="false"
+                >
+                  <img class="h-52 w-full" src="/images/img2.png" alt="" />
+                  <h1 class="text-3xl font-medium">Start Framework</h1>
+                  <p class="my-2 text-main">
+                     Angular web application using reusable components and structured front-end architecture.
+                  </p>
+                  <h3 class="text-3xl font-medium">Project Details</h3>
+                  <p class="my-2 text-main">
+                    Built a responsive single-page portfolio website ,
+                     featuring reusable components, responsive layouts, and a modern user interface optimized for desktop and mobile devices.
+                  </p>
+                  <h3 class="text-3xl mb-2 font-medium">Technologies Used</h3>
+                  <div class="flex justify-between">
+                    <p class="p-3 border border-white rounded-2xl">Angular</p>
+                    <p class="p-3 border border-white rounded-2xl">Bootstrap</p>
+                    <p class="p-3 border border-white rounded-2xl">HTML</p>
+                    <p class="p-3 border border-white rounded-2xl">CSS</p>
+                    <p class="p-3 border border-white rounded-2xl">TS</p>
+                  </div>
+                  <a href="https://start-framework01.vercel.app">
+                    <button
+                      class="w-full mt-4 p-2 cursor-pointer text-2xl border  text-main hover:text-white hover:bg-main rounded-2xl duration-300"
+                    >
+                      View Project
+                    </button>
+                  </a>
+                </p-dialog>
+              </div>
+            </div>
+
+            <p class="mt-5">
+                Angular web application using reusable components and structured front-end architecture
+
+            </p>
+          </div>
+        </div>
+        <!-- project-3 -->
+        <div class="inner p-4 border hover:border-0">
+          <!--? image-project -->
+          <div class="img overflow-hidden">
+            <img
+              src="/images/img3.png"
+              class="w-full hover:scale-[1.2] relative duration-300 object-cover object-center"
+              alt="Start Framework"
+            />
+          </div>
+          <!-- ?Content-project -->
+          <div class="content mt-10">
+            <div class="flex justify-between">
+              <h3 class="text-2xl text-main font-medium">Daniels</h3>
+              <div> 
+                <p-button (onClick)="showDialog('project3')" label="Show" />
+                <p-dialog
+                  header="Project Details"
+                  [modal]="true"
+                  [(visible)]="visible['project3']"
+                  [style]="{ width: '50rem' }"
+                  [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }"
+                  [maximizable]="false"
+                >
+                  <img class="h-52 w-full" src="/images/img3.png" alt="" />
+                  <h1 class="text-3xl font-medium">Daniels</h1>
+                  <p class="my-2 text-main">
+                    Built a responsive personal portfolio website featuring modern UI design.
+                  </p>
+                  <h3 class="text-3xl font-medium">Project Details</h3>
+                  <p class="my-2 text-main">
+                    Developed a modern and fully responsive personal portfolio website .
+                     Implemented structured sections for showcasing personal information,
+                     services, portfolio projects, and contact details, with smooth navigation, animations, and interactive UI elements.
+                  </p>
+                  <h3 class="text-3xl mb-2 font-medium">Technologies Used</h3>
+                  <div class="flex justify-around">
+                    <p class="p-3 border border-white rounded-2xl">HTML</p>
+                    <p class="p-3 border border-white rounded-2xl">CSS</p>
+                    <p class="p-3 border border-white rounded-2xl">JS</p>
+                    <p class="p-3 border border-white rounded-2xl">Bootstrap</p>
+                  </div>
+                  <a href="https://mohamedanwar120.github.io/Daniels/">
+                    <button
+                      class="w-full mt-4 p-2 cursor-pointer text-2xl border  text-main hover:text-white hover:bg-main rounded-2xl duration-300"
+                    >
+                      View Project
+                    </button>
+                  </a>
+                </p-dialog>
+              </div>
+            </div>
+
+            <p class="mt-5">
+              Built a responsive personal portfolio website featuring modern UI design.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="cart2 grid lg:grid-cols-3 md:grid-cols-2 gap-10 container mx-auto my-10">
+        <!-- project-4 -->
+        <div class="inner p-4 border hover:border-0">
+          <!--? image-project -->
+          <div class="img overflow-hidden">
+            <img
+              src="/images/img4.png"
+              class="w-full hover:scale-[1.2] relative duration-300 object-cover object-center"
+              alt="Start Framework"
+            />
+          </div>
+          <!-- ?Content-project -->
+          <div class="content mt-10">
+            <div class="flex justify-between">
+              <h3 class="text-2xl text-main font-medium">BookMarker</h3>
+              <div>
+                <p-button (onClick)="showDialog('project4')" label="Show" />
+                <p-dialog
+                  header="Project Details"
+                  [modal]="true"
+                  [(visible)]="visible['project4']"
+                  [style]="{ width: '50rem' }"
+                  [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }"
+                  [maximizable]="false"
+                >
+                  <img class="h-52 w-full" src="/images/img4.png" alt="" />
+                  <h1 class="text-3xl font-medium">BookMarker</h1>
+                  <p class="my-2 text-main">
+                   Built a responsive bookmark management application with CRUD operations.
+                  </p>
+                  <h3 class="text-3xl font-medium">Project Details</h3>
+                  <p class="my-2 text-main">
+                   Developed a responsive bookmark management web application. Implemented CRUD operations for adding, displaying, updating, and deleting bookmarks, with form validation and Local Storage for persistent data management.
+                    Designed a clean, user-friendly interface with responsive layouts for different screen sizes.
+                  </p>
+                  <h3 class="text-3xl mb-2 font-medium">Technologies Used</h3>
+                  <div class="flex justify-around">
+                    <p class="p-3 border border-white rounded-2xl">HTML</p>
+                    <p class="p-3 border border-white rounded-2xl">CSS</p>
+                    <p class="p-3 border border-white rounded-2xl">JS</p>
+                    <p class="p-3 border border-white rounded-2xl">Bootstrap</p>
+                  </div>
+                  <a href="https://mohamedanwar120.github.io/BookMarker/">
+                    <button
+                      class="w-full mt-4 p-2 cursor-pointer text-2xl border  text-main hover:text-white hover:bg-main rounded-2xl duration-300"
+                    >
+                      View Project
+                    </button>
+                  </a>
+                </p-dialog>
+              </div>
+            </div>
+
+            <p class="mt-5">
+             Built a responsive bookmark management application with CRUD operations.
+            </p>
+          </div>
+        </div>
+        <!-- project-5 -->
+        <div class="inner p-4 border hover:border-0">
+          <!--? image-project -->
+          <div class="img overflow-hidden">
+            <img
+              src="/images/img5.png"
+              class="w-full hover:scale-[1.2] relative duration-300 object-cover object-center"
+              alt="Start Framework"
+            />
+          </div>
+          <!-- ?Content-project -->
+          <div class="content mt-10">
+            <div class="flex justify-between">
+              <h3 class="text-2xl text-main font-medium">Mealify</h3>
+              <div>
+                <p-button (onClick)="showDialog('project5')" label="Show" />
+                <p-dialog
+                  header="Project Details"
+                  [modal]="true"
+                  [(visible)]="visible['project5']"
+                  [style]="{ width: '50rem' }"
+                  [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }"
+                  [maximizable]="false"
+                >
+                  <img class="h-52 w-full" src="/images/img5.png" alt="" />
+                  <h1 class="text-3xl font-medium">Mealify</h1>
+                  <p class="my-2 text-main">
+                    Built a responsive restaurant landing page with modern UI, food gallery, chefs section, contact form, responsive navigation, and mobile-friendly.
+                  </p>
+                  <h3 class="text-3xl font-medium">Project Details</h3>
+                  <p class="my-2 text-main">
+                    Developed a modern and responsive restaurant website. Built a clean user interface featuring restaurant information, professional chefs, food gallery, contact section, and responsive navigation. 
+                    Focused on creating a visually appealing and user-friendly experience across different screen sizes.
+                  </p>
+                  <h3 class="text-3xl mb-2 font-medium">Technologies Used</h3>
+                  <div class="flex justify-around">
+                    <p class="p-3 border border-white rounded-2xl">HTML</p>
+                    <p class="p-3 border border-white rounded-2xl">CSS</p>
+                    <p class="p-3 border border-white rounded-2xl">JS</p>
+                    <p class="p-3 border border-white rounded-2xl">Bootstrap</p>
+                  </div>
+                  <a href="https://mohamedanwar120.github.io/Mealify/">
+                    <button
+                      class="w-full mt-4 p-2 cursor-pointer text-2xl border  text-main hover:text-white hover:bg-main rounded-2xl duration-300"
+                    >
+                      View Project
+                    </button>
+                  </a>
+                </p-dialog>
+              </div>
+            </div>
+
+            <p class="mt-5">
+              Built a responsive restaurant landing page with modern UI, food gallery, chefs section, contact form, responsive navigation, and mobile-friendly.
+            </p>
+          </div>
+        </div>
+        <!-- project-6 -->
+        <div class="inner p-4 border hover:border-0">
+          <!--? image-project -->
+          <div class="img overflow-hidden">
+            <img
+              src="/images/img6.png"
+              class="w-full hover:scale-[1.2] relative duration-300 object-cover object-center"
+              alt="Start Framework"
+            />
+          </div>
+          <!-- ?Content-project -->
+          <div class="content mt-10">
+            <div class="flex justify-between">
+              <h3 class="text-2xl text-main font-medium">Food-lover</h3>
+              <div>
+                <p-button (onClick)="showDialog('project6')" label="Show" />
+                <p-dialog
+                  header="Project Details"
+                  [modal]="true"
+                  [(visible)]="visible['project6']"
+                  [style]="{ width: '50rem' }"
+                  [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }"
+                  [maximizable]="false"
+                >
+                  <img class="h-52 w-full" src="/images/img6.png" alt="" />
+                  <h1 class="text-3xl font-medium ">Food-lover</h1>
+                  <p class="my-2 text-main">
+                    Built a responsive restaurant website featuring a modern UI, food menu, categorized dishes.
+                  </p>
+                  <h3 class="text-3xl font-medium">Project Details</h3>
+                  <p class="my-2 text-main">
+                    Developed a responsive restaurant website using. Designed a modern user interface with sections for the restaurant menu,
+                     food categories, about information, and contact details.
+                     Implemented responsive layouts and interactive elements to provide a smooth user experience across desktop and mobile devices.
+                  </p>
+                  <h3 class="text-3xl mb-2 font-medium">Technologies Used</h3>
+                  <div class="flex justify-around">
+  
+                    <p class="p-3 border border-white rounded-2xl">HTML</p>
+                    <p class="p-3 border border-white rounded-2xl">CSS</p>
+                    <p class="p-3 border border-white rounded-2xl">JS</p>
+                  </div>
+                  <a href="https://mohamedanwar120.github.io/food-lover/">
+                    <button
+                      class="w-full mt-4 p-2 cursor-pointer text-2xl border  text-main hover:text-white hover:bg-main rounded-2xl duration-300"
+                    >
+                      View Project
+                    </button>
+                  </a>
+                </p-dialog>
+              </div>
+            </div>
+
+            <p class="mt-5">
+              Built a responsive restaurant website featuring a modern UI, food menu, categorized dishes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

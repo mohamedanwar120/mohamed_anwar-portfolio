@@ -1,0 +1,100 @@
+<div >
+  <!-- home-section -->
+
+  <div class="mt-35  min-h-screen mx-auto">
+    <div class="text-center">
+      <div>
+        <div class="inner">
+          <h1 class="text-main text-7xl w-4xl  mx-auto font-bold">Crafting User Experiences for the Web.</h1>
+
+          <div class="icon my-10">
+            <ul>
+              <a href="https://github.com/mohamedanwar120"
+                ><i class="fa-brands fa-github text-6xl hover:text-main"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/mohamed-anwar-675242320"
+                ><i class="fa-brands fa-linkedin text-6xl text-[#0A78B5] hover:text-main"></i
+              ></a>
+              <a href="mohamed.anwar2002305@gmail.com"
+                ><i class="fa-solid fa-envelope text-6xl text-[#F84A3D] hover:text-main"></i
+              ></a>
+            </ul>
+          </div>
+          <button class="btn-main text-[18px]">
+            <i class="fa-solid fa-star text-yellow-300"></i> Star me on Github
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+
+  <section class="font-bold container lg:mx-20 mb-20">
+    <div class="grid lg:grid-cols-2 gap-2 md:grid-cols-1 md:gap-0 justify-between ">
+      <div class="inner ml-10 text-main">
+        <h3 class="text-[12px] font-bold">WHO I Am</h3>
+        <h1 class="text-4xl text-main my-5">Front-end Developer</h1>
+
+        <div class="content text-2xl text-gray-500">
+          <p class="font-medium mr-2">
+            Front-End Developer specializing in Angular with experience building responsive and
+            scalable web applications. Skilled in JavaScript (ES6+), TypeScript, and modern UI
+            development. Experienced with SPA architecture, REST APIs, and performance optimization.
+          </p>
+          <p class="mt-3">Building responsive website front-end using Angular.</p>
+          <p>Developing custom and interactive 3D websites.</p>
+        </div>
+      </div>
+      <div class="bg-[#050505] text-white">
+        <div class="w-full">
+          <!-- VS Code -->
+          <div class="overflow-hidden rounded-xl border border-white/10 bg-[#0d1117] shadow-2xl">
+            <!-- Top Bar -->
+            <div class="h-12 flex items-center border-b border-white/10 bg-[#161b22] px-4">
+              <!-- Mac buttons -->
+              <div class="flex gap-2">
+                <span class="h-3 w-3 rounded-full bg-red-500"></span>
+
+                <span class="h-3 w-3 rounded-full bg-yellow-500"></span>
+
+                <span class="h-3 w-3 rounded-full bg-green-500"></span>
+              </div>
+            </div>
+
+            <!-- Editor -->
+            <div class="flex">
+              <!-- Code -->
+              <main class="min-h-100 flex-1 overflow-x-auto p-5 md:p-8">
+                <div class="flex font-mono text-sm md:text-base">
+                  <!-- Line Numbers -->
+                  <div class="mr-6 select-none text-right text-gray-600 leading-7">
+                    @for (line of displayedCode.split('\n'); track $index) {
+                      <div>
+                        {{ $index + 1 }}
+                      </div>
+                    }
+                  </div>
+
+                  <!-- Code -->
+                  <pre
+                    class="whitespace-pre-wrap leading-7 text-gray-200">{{ displayedCode }}<span class="animate-pulse text-blue-400">▋</span></pre>
+                </div>
+              </main>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- home-slider -->
+
+  <div class="text-center">
+    <h1 class="text-main text-7xl font-bold ">Technologies</h1>
+    <p class="text-main text-3xl font-medium my-10">
+      Modern frameworks and tools driving innovative web solutions.
+    </p>
+    <app-home-slider />
+  </div>
+</div>

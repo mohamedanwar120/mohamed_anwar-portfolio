@@ -1,0 +1,13 @@
+:root{
+    --main-color:#A0A0A0;
+    --hover-color:#A0A0A0;
+    --my-shadow:  0 20px 25px -5px var(--tw-shadow-color,  rgb(169, 209, 236)), 0 8px 10px -6px var(--tw-shadow-color,  rgb(169, 209, 236));;
+    --main-color:linear-gradient( rgba(255, 255, 255, 0.15) 1px, transparent 1px)
+}
+
+
+@theme {
+    --color-main:#A0A0A0;
+    --color-hover:#A0A0A0;
+    --my-shadow:  0 20px 25px -5px var(--tw-shadow-color, rgb(169, 209, 236)), 0 8px 10px -6px var(--tw-shadow-color, rgb(169, 209, 236));;
+}
