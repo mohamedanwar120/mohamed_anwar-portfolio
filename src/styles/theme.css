@@ -1,13 +1,73 @@
-:root{
-    --main-color:#A0A0A0;
-    --hover-color:#A0A0A0;
-    --my-shadow:  0 20px 25px -5px var(--tw-shadow-color,  rgb(169, 209, 236)), 0 8px 10px -6px var(--tw-shadow-color,  rgb(169, 209, 236));;
-    --main-color:linear-gradient( rgba(255, 255, 255, 0.15) 1px, transparent 1px)
+/* ========================================
+   CSS Variables
+   ======================================== */
+
+:root {
+    --main-color: #A0A0A0;
+
+    --hover-color: #A0A0A0;
+
+    --my-shadow:
+        0 20px 25px -5px
+        var(--tw-shadow-color, rgb(169, 209, 236)),
+        0 8px 10px -6px
+        var(--tw-shadow-color, rgb(169, 209, 236));
+
+    /* Grid / Background Gradient */
+    --grid-color: linear-gradient(
+        rgba(255, 255, 255, 0.15) 1px,
+        transparent 1px
+    );
 }
 
 
+/* ========================================
+   Tailwind Theme
+   ======================================== */
+
 @theme {
-    --color-main:#A0A0A0;
-    --color-hover:#A0A0A0;
-    --my-shadow:  0 20px 25px -5px var(--tw-shadow-color, rgb(169, 209, 236)), 0 8px 10px -6px var(--tw-shadow-color, rgb(169, 209, 236));;
+    --color-main: #A0A0A0;
+
+    --color-hover: #A0A0A0;
+
+    --my-shadow:
+        0 20px 25px -5px
+        var(--tw-shadow-color, rgb(169, 209, 236)),
+        0 8px 10px -6px
+        var(--tw-shadow-color, rgb(169, 209, 236));
+}
+
+
+/* ========================================
+   Components
+   ======================================== */
+
+@layer components {
+
+    .btn-main,
+    .active-link {
+        @apply
+            text-black
+            border
+            border-main
+            bg-gray-100
+            hover:bg-main
+            hover:text-white
+            disabled:cursor-not-allowed
+            disabled:bg-light
+            disabled:text-dark
+            cursor-pointer
+            duration-500
+            transition-colors
+            rounded-2xl
+            px-7
+            py-3;
+    }
+
+
+    .main-hover {
+        @apply
+            hover:bg-main
+            duration-200;
+    }
 }

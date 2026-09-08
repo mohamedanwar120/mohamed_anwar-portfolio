@@ -1,16 +1,49 @@
-/* Tailwind */
+/* ========================================
+   Google Fonts
+   ALL @import rules must come first
+   ======================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap');
+
+
+/* ========================================
+   Tailwind CSS
+   ======================================== */
+
 @import "tailwindcss";
 
-/* Flowbite */
+
+/* ========================================
+   Flowbite
+   ======================================== */
+
 @import "flowbite/src/themes/default";
 
-/* Your custom styles */
+
+/* ========================================
+   Custom Styles
+   ======================================== */
+
 @import "./styles/base.css";
+
 @import "./styles/typography.css";
+
 @import "./styles/theme.css";
 
-/* Flowbite plugin */
+
+/* ========================================
+   Flowbite Plugin
+   ======================================== */
+
 @plugin "flowbite/plugin";
 
-/* Flowbite source */
+
+/* ========================================
+   Flowbite Source
+   ======================================== */
+
 @source "../node_modules/flowbite";
