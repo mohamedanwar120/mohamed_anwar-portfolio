@@ -4,10 +4,13 @@
 /* Flowbite */
 @import "flowbite/src/themes/default";
 
-@plugin "flowbite/plugin";
-@source "../node_modules/flowbite";
-
 /* Your custom styles */
-@import './styles/base.css';
-@import './styles/typography.css';
-@import './styles/theme.css';
+@import "./styles/base.css";
+@import "./styles/typography.css";
+@import "./styles/theme.css";
+
+/* Flowbite plugin */
+@plugin "flowbite/plugin";
+
+/* Flowbite source */
+@source "../node_modules/flowbite";
